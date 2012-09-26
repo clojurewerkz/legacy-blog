@@ -82,11 +82,11 @@ feel free to ask questions and report issues there.
 
 Elastisch is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
 
- * [Welle](https://github.com/michaelklishin/welle), a Riak client with batteries included
- * [Monger](https://github.com/michaelklishin/monger), a Clojure MongoDB client for a more civilized age
- * [Neocons](https://github.com/michaelklishin/neocons), a client for the Neo4J REST API
- * [Langohr](https://github.com/michaelklishin/langohr), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
- * [Quartzite](https://github.com/michaelklishin/quartzite), a powerful scheduling library
+ * [Welle](https://clojureriak.info), a Riak client with batteries included
+ * [Monger](https://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
+ * [Neocons](https://clojureneo4j.info), a client for the Neo4J REST API
+ * [Langohr](https://clojurerabbitmq.info), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
+ * [Quartzite](https://clojurequartz.info), a powerful scheduling library
 
 and several others. If you like Elastisch, you may also like [our other projects](http://clojurewerkz.org).
 
