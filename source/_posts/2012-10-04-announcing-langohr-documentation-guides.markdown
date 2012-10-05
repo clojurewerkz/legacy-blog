@@ -51,7 +51,7 @@ basic concepts and a few examples to demonstrate key features:
 This article covers AMQP 0.9.1 model, concepts and protocol structure. It is not client-specific and now lives on rabbitmq.com so we simply link to it.
 
 
-### [Conneciting To The Broker](/articles/connecting.html)
+### [Conneciting To The Broker](http://clojurerabbitmq.info/articles/connecting.html)
 
 This guide covers:
 
