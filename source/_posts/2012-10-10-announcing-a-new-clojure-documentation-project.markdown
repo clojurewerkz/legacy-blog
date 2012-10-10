@@ -75,6 +75,8 @@ and community contributors:
  * [Getting Started tutorial](http://clojure-doc.org/articles/tutorials/getting_started.html)
  * [Intro to Clojure](http://clojure-doc.org/articles/tutorials/introduction.html)
  * A guide on [Clojure functions](http://clojure-doc.org/articles/language/functions.html)
+ * A guide on [Java interoperability](http://clojure-doc.org/articles/language/interop.html)
+ * A guide on [Polymorphism in Clojure](http://clojure-doc.org/articles/language/polymorphism.html)
  * A guide on the [Clojure community](http://clojure-doc.org/articles/ecosystem/community.html)
  * (Curated, opinionated, not comprehensive) [Clojure libraries directory](http://clojure-doc.org/articles/ecosystem/libraries_directory.html)
 
