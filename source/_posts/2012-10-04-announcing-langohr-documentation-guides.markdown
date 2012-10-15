@@ -3,7 +3,9 @@ layout: post
 title: "Announcing Langohr documentation guides"
 date: 2012-10-04 17:32
 comments: true
-categories: langohr, documentation
+categories:
+  - langohr
+  - documentation
 ---
 
 ## TL;DR

@@ -3,7 +3,9 @@ layout: post
 title: "Announcing a new Clojure documentation project"
 date: 2012-10-10 18:30
 comments: false
-categories: documentation, clojure
+categories:
+  - documentation
+  - clojure
 ---
 
 This blog is about [ClojureWerkz](http://clojurewerkz.org) libraries news and developments but this blog post is about
