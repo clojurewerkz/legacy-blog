@@ -28,7 +28,7 @@ So lets start. This is a report for the week ending October 14th, 2012.
 
 In the first week of CDS, we have added
 
- * 2 new tutorials and 5 new and 2 expanded guides
+ * 2 new tutorials and 6 new and 2 expanded guides
  * About 4,000 lines of changes in the content directory (does not include CSS or toolchain-related changes)
  * 14 merged pull requests
  * 13 contributors
@@ -54,7 +54,7 @@ New guides:
  * [Namespaces](http://clojure-doc.org/articles/language/namespaces.html)
  * [Polymorphism: Protocols and Multimethods](http://clojure-doc.org/articles/language/polymorphism.html)
  * [Collections and Sequences](http://clojure-doc.org/articles/language/collections_and_sequences.html)
-
+ * [Clojure Glossary](http://clojure-doc.org/articles/language/glossary.html)
 
 ## Updates
 
