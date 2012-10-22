@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elastisch 1.0.2 is released"
-date: 2012-10-22 12:13
+date: 2012-10-22 13:30
 comments: true
 categories:
   - releases
