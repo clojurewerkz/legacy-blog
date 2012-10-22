@@ -3,7 +3,9 @@ layout: post
 title: "Elastisch 1.0: a minimalistic, well documented Clojure client for ElasticSearch"
 date: 2012-09-26 14:45
 comments: true
-categories: releases, elastisch
+categories:
+  - releases
+  - elastisch
 ---
 
 [Elastisch](http://clojureelasticsearch.info) `1.0` is here!
