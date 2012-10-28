@@ -122,7 +122,7 @@ please let us know on the [Clojure mailing list](https://groups.google.com/group
 ## Summary
 
 CDS is 2-3 guides from covering the language "reasonably well". There still are holes in various guides
-but mostly in the more advanced areas and
+but mostly in the more advanced areas and expectedly will take longer to write.
 
 Want to help us make things better? [Join us](http://github.com/clojuredocs/cds)!
 
