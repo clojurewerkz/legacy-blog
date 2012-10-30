@@ -60,7 +60,7 @@ We recommend all users to upgrade to [1.3.0](https://clojars.org/com.novemberain
 
 ## Monger is a ClojureWerkz Project
 
-[Monger](http://clojureelasticsearch.info) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
+[Monger](http://clojuremongodb.info) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
 
  * [Welle](https://clojureriak.info), a Riak client with batteries included
  * [Elastisch](https://clojureelasticsearch.info), a minimalistic Clojure client for ElasticSearch
@@ -73,4 +73,4 @@ and several others. If you like Monger, you may also like [our other projects](h
 Let us know what you think [on Twitter](http://twitter.com/clojurewerkz) or on the [Clojure mailing list](https://groups.google.com/group/clojure).
 
 
-The [ClojureWerkz](http://clojurewerkz.org) Team
+[@michaelklishin](http://twitter.com/michaelklishin) on behalf of the [ClojureWerkz](http://clojurewerkz.org) Team
