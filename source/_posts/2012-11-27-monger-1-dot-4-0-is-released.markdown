@@ -22,7 +22,7 @@ Cheshire and adapts to their public API changes.
 
 ### MongoDB Java Driver Update
 
-MongoDB Java driver dependency has been [updated to 2.10.0](). If your code depends on the exact
+MongoDB Java driver dependency has been [updated to 2.10.0](https://groups.google.com/forum/?fromgroups#!topic/mongodb-announce/FHp6ue36WUw). If your code depends on the exact
 class `com.mongodb.Mongo`, it should be updated to use `com.mongodb.MongoClient` (or not depend on specific class names at all).
 
 In addition, `MongoOptions` and `MongoURI` in the new driver have changed to `MongoClientOptions` and `MongoClientURI`, respectively.
