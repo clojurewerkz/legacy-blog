@@ -103,7 +103,7 @@ a lot more. This is why you can expect more CDS and documentation efforts from u
 use many Clojure features that can be demonstrated better when put into a context: a series of blog posts about them
 is one example of how we can help improve Clojure documentation.
 
-Another aspect we have a lot to share about is library development and maintenance. With about 20 libraries, all compatible with 3
+Something else we have a lot to share about is library development and maintenance. With about 20 libraries, all compatible with 3
 Clojure versions, under our belt, we believe we know a thing or two about how to (and how *not to*) maintain
 an open source project.
 
