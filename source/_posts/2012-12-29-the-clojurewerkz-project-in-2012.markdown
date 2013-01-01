@@ -77,7 +77,7 @@ project really well.
 
 Langohr is a [Clojure RabbitMQ client](http://clojurerabbitmq.info) that embraces [AMQP 0.9.1 Model](http://www.rabbitmq.com/tutorials/amqp-concepts.html).
 
-Although Langohr is the oldest ClojureWerkz project, it hasn't reached `1.0` yet. It has, however, went through a number of breaking
+Although Langohr is the oldest ClojureWerkz project, it hasn't reached `1.0` yet. It has, however, gone through a number of breaking
 changes after real world feedback and is shaping up nicely, including the docs.
 
 We are finishing adding RabbitMQ HTTP API support to it in the near future.
