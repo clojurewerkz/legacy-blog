@@ -110,7 +110,7 @@ We recommend all users to give [1.1.0-beta2](https://clojars.org/clojurewerkz/ne
  * [Welle](https://clojureriak.info), a Riak client with batteries included
  * [Quartzite](https://clojurequartz.info), a powerful scheduling library
 
-and several others. If you like Monger, you may also like [our other projects](http://clojurewerkz.org).
+and several others. If you like Neocons, you may also like [our other projects](http://clojurewerkz.org).
 
 Let us know what you think [on Twitter](http://twitter.com/clojurewerkz) or on the [Clojure mailing list](https://groups.google.com/group/clojure).
 
