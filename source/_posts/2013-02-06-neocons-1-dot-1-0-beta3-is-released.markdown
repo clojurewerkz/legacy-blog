@@ -37,7 +37,7 @@ Neocons now uses ClojureWerkz Support 0.12.0.
 
 ## Change Log
 
-We recommend all users to give [1.1.0-beta2](https://clojars.org/clojurewerkz/neocons/versions/1.1.0-beta3) a try.
+We recommend all users to give [1.1.0-beta3](https://clojars.org/clojurewerkz/neocons/versions/1.1.0-beta3) a try.
 
 [Neocons change log](https://github.com/michaelklishin/neocons/blob/master/ChangeLog.md) is available on GitHub.
 
