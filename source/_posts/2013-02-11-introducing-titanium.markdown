@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'Introducing Titanium"
+title: "Introducing Titanium"
 date: 2013-02-11 17:00
 comments: false
 categories:
