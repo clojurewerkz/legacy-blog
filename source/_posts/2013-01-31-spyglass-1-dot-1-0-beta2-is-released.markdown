@@ -135,11 +135,11 @@ We recommend all users to give [1.1.0-beta2](https://clojars.org/clojurewerkz/sp
 
 [Spyglass](http://clojurememcached.info) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
 
- * [Langohr](https://clojurerabbitmq.info), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
- * [Elastisch](https://clojureelasticsearch.info), a minimalistic Clojure client for ElasticSearch
- * [Monger](https://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
- * [Neocons](http://clojureneo4j.info), a feature rich idiomatic Clojure client for the Neo4J REST API * [Welle](https://clojureriak.info), a Riak client with batteries included
- * [Quartzite](https://clojurequartz.info), a powerful scheduling library
+ * [Langohr](http://clojurerabbitmq.info), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
+ * [Elastisch](http://clojureelasticsearch.info), a minimalistic Clojure client for ElasticSearch
+ * [Monger](http://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
+ * [Neocons](http://clojureneo4j.info), a feature rich idiomatic Clojure client for the Neo4J REST API * [Welle](http://clojureriak.info), a Riak client with batteries included
+ * [Quartzite](http://clojurequartz.info), a powerful scheduling library
 
 and several others. If you like Spyglass, you may also like [our other projects](http://clojurewerkz.org).
 

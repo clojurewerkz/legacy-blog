@@ -63,11 +63,11 @@ an exception (`com.rabbitmq.client.ShutdownSignalException`, `java.io.IOExceptio
 
 [Langohr](http://clojurerabbitmq.info) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
 
- * [Elastisch](https://clojureelasticsearch.info), a minimalistic well documented Clojure client for ElasticSearch
- * [Welle](https://clojureriak.info), a Riak client with batteries included
- * [Monger](https://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
- * [Neocons](https://clojureneo4j.info), a client for the Neo4J REST API
- * [Quartzite](https://clojurequartz.info), a powerful scheduling library
+ * [Elastisch](http://clojureelasticsearch.info), a minimalistic well documented Clojure client for ElasticSearch
+ * [Welle](http://clojureriak.info), a Riak client with batteries included
+ * [Monger](http://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
+ * [Neocons](http://clojureneo4j.info), a client for the Neo4J REST API
+ * [Quartzite](http://clojurequartz.info), a powerful scheduling library
 
 and several others. If you like Langohr, you may also like [our other projects](http://clojurewerkz.org).
 

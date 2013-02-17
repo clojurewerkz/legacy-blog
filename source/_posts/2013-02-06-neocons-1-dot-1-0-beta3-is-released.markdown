@@ -47,11 +47,11 @@ We recommend all users to give [1.1.0-beta3](https://clojars.org/clojurewerkz/ne
 
 [Neocons](http://clojureneo4j.info) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
 
- * [Langohr](https://clojurerabbitmq.info), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
- * [Elastisch](https://clojureelasticsearch.info), a minimalistic Clojure client for ElasticSearch
- * [Monger](https://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
- * [Welle](https://clojureriak.info), a Riak client with batteries included
- * [Quartzite](https://clojurequartz.info), a powerful scheduling library
+ * [Langohr](http://clojurerabbitmq.info), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
+ * [Elastisch](http://clojureelasticsearch.info), a minimalistic Clojure client for ElasticSearch
+ * [Monger](http://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
+ * [Welle](http://clojureriak.info), a Riak client with batteries included
+ * [Quartzite](http://clojurequartz.info), a powerful scheduling library
 
 and several others. If you like Neocons, you may also like [our other projects](http://clojurewerkz.org).
 
