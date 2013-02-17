@@ -10,7 +10,7 @@ categories:
 
 ## TL;DR
 
-Langohr is a [Clojure RabbitMQ client](http://clojurerabbitmq.info) that embraces [AMQP 0.9.1 Model](www.rabbitmq.com/tutorials/amqp-concepts.html).
+Langohr is a [Clojure RabbitMQ client](http://clojurerabbitmq.info) that embraces [AMQP 0.9.1 Model](http://www.rabbitmq.com/tutorials/amqp-concepts.html).
 
 `1.0.0-beta11` is a development milestone release. We recommend all users to upgrade to it.
 
