@@ -47,7 +47,7 @@ We recommend all users to upgrade to [1.5.0](https://clojars.org/com.novemberain
  * [Langohr](http://clojurerabbitmq.info), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
  * [Quartzite](http://clojurequartz.info), a powerful scheduling library
 
-and several others. If you like Monger, you may also like [our other projects](http://clojurewerkz.org).
+and several others. If you like Pantomime, you may also like [our other projects](http://clojurewerkz.org).
 
 Let us know what you think [on Twitter](http://twitter.com/clojurewerkz) or on the [Clojure mailing list](https://groups.google.com/group/clojure).
 
