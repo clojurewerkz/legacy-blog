@@ -26,7 +26,7 @@ We encourage all users to upgrade to 1.5, it is a drop-in replacement for the ma
 
 ## Change Log
 
-We recommend all users to upgrade to [1.7.0](https://clojars.org/com.novemberain/validateur/versions/1.7.0).
+We recommend all users to upgrade to [1.4.0](https://clojars.org/com.novemberain/validateur/versions/1.4.0).
 
 [Validateur change log](https://github.com/michaelklishin/validateur/blob/master/ChangeLog.md) is available on GitHub.
 
