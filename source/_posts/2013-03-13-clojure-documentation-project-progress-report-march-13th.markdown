@@ -18,7 +18,7 @@ periodic reports to give the Clojure community a better idea of what [clojure-do
 
 New tuturials:
 
- * [Vim Foreplay For Clojure Development](http://clojure-doc.org/articles/tutorials/vim_foreplay.html)
+ * [Vim For Clojure Development](http://clojure-doc.org/articles/tutorials/vim_fireplace.html)
  * [Growing a DSL with Clojure](http://clojure-doc.org/articles/tutorials/growing_a_dsl_with_clojure.html)
 
 New guides:
