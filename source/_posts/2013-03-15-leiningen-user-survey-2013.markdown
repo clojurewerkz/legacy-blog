@@ -9,7 +9,7 @@ categories:
 
 ## Leiningen User Survey 2013
 
-[Leiningen User Survey 2013](https://lein-survey-2013.herokuapp.com/) is up: please participate!.
+[Leiningen User Survey 2013](https://lein-survey-2013.herokuapp.com/) is up: please participate!
 
 Results of the survey will help Leiningen maintainers understand
 needs of the community better and prioritize their time more efficiently.
