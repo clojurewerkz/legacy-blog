@@ -15,6 +15,9 @@ Neocons is a feature rich idiomatic [Clojure client for the Neo4J REST API](http
 `1.1.0` is a minor release that includes several minor improvements and
 bug fixes and is *100% backwards-compatible* with `1.0.x`.
 
+Next release of Neocons will be `2.0`. It will target development of Neo4J
+2.0 closely and may include breaking API changes.
+
 
 
 ## Changes between Neocons 1.0.x and 1.1.0
@@ -88,12 +91,12 @@ to Neo4J Server. Reported in #6.
 
 
 
-
 ## Change Log
 
 We recommend all users to upgrade to [1.1.0](https://clojars.org/clojurewerkz/neocons/versions/1.1.0) a try.
 
 [Neocons change log](https://github.com/michaelklishin/neocons/blob/master/ChangeLog.md) is available on GitHub.
+
 
 
 
