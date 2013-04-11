@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Money 1.1.0 is released"
-date: 2013-04-08 22:06
+title: "Money 1.2.0 is released"
+date: 2013-04-11 18:38
 comments: false
 categories:
   - money
@@ -11,35 +11,17 @@ categories:
 [Money](https://github.com/clojurewerkz/money) is a Clojure library that deals with monetary amounts
 and currencies, built on top of [Joda Money](http://joda-money.sourceforge.net/).
 
-`1.1.0` is a minor release that contains **one breaking API change**, contains
-minor improvements and upgrades dependencies.
+`1.2.0` is a minor release that has no breaking API changes and contains
+additional 
 
 
 
-## Changes between Money 1.0.0 and 1.1.0
+## Changes between Money 1.1.0 and 1.2.0
 
-### Comparison Functions
+ClojureWerkz Money now provides a list of additional currencies
+on top of the default Joda Money currency provider. Right now
+the only additional currency is BTC (Bitcoin).
 
-It is possible to compare monetary amounts using >, >=, < and <=.
-
-```clojure
-(require '[clojurewerkz.money.amounts    :as ma])
-(require '[clojurewerkz.money.currencies :as mc])
-
-(ma/< (ma/amount-of mc/USD 100) (ma/amount-of mc/USD 100))
-;= false
-
-(ma/<= (ma/amount-of mc/USD 100) (ma/amount-of mc/USD 100) (ma/amount-of mc/USD 120))
-;= true
-
-(ma/>= (ma/amount-of mc/USD 100) (ma/amount-of mc/USD 100) (ma/amount-of mc/USD 120))
-;= false
-
-(ma/> (ma/amount-of mc/USD 200) (ma/amount-of mc/USD 100))
-;= true
-```
-
-Contributed by Ben Poweski.
 
 
 ## Change Log
