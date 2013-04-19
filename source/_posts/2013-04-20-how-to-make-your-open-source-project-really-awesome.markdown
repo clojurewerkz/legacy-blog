@@ -282,6 +282,8 @@ GitHub makes several things easy:
 Maybe the most importantly, **GitHub is pretty friendly to less technical people**. Yes, it is,
 and they are working hard on making it even better.
 
+Using GitHub means you'll have an extremely easy to use CI service: [Travis CI](http://travis-ci.org).
+
 You will get a lot more admiration from your users if you won't make their life
 harder by asking them to deal with patches, look for your email across the
 Web to report issues and clone your 300 MB repository over poor 3G just to edit
