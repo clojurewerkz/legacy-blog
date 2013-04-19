@@ -13,7 +13,13 @@ categories:
 Welle is an expressive [Clojure client for Riak](http://clojureriak.info) with batteries included.
 
 [1.5.0](https://clojars.org/com.novemberain/welle/versions/1.5.0) is a minor release
-that is *100% backwards-compatible* with `1.5.x`. This version has been tested against
+that is *100% backwards-compatible* with `1.5.x` and introduces several nice features:
+
+ * Retriers for failing operations
+ * Conflict resolvers
+ * Easier to use update functions
+
+This version has been tested against
 Riak `1.2.x` and `1.3.x`.
 
 
