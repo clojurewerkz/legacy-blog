@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How To Make Your Open Source Project Really Awesome"
-date: 2013-04-20 13:00
+date: 2013-04-20 01:00
 comments: false
 categories:
   - misc
