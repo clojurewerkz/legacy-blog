@@ -94,14 +94,28 @@ and you save beginners potentially a lot of head scratching.
 If you need an example, [here's one from Welle](https://github.com/michaelklishin/welle#supported-clojure-versions).
 
 
+
+### State What License You Use
+
+You may not care about licenses much, but people who want to use your library at a BigBucks Inc do.
+They must know. And it may be a deal breaker for them when they want to adopt Clojure/Node.js/Scala/Go/whatever.
+
+So state your license clearly. And please, use something business-friendly unless you have good reasons.
+Apache Public License 2.0, Eclipse Public License and MIT are three good, friendly choices.
+
+Finally, remember that you can double-license, e.g. APL2/MIT/GPLv2 if you really want to be license-neutral.
+Then your users will pick what suits them.
+
+
 ### How To Fuck It Up
 
 If you want to completely screw your users, do this:
 
  * Put a nearly blank README to your project's root
  * Make it say "patches welcome" at the end
+ * Invent your own license or use a completely unfamiliar one, such as [WTFPL](http://en.wikipedia.org/wiki/WTFPL)
 
-Then your project will never have any users. Guarateed.
+Then your project will never have any users. Guaranteed.
 
 
 
