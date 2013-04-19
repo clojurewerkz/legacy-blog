@@ -75,7 +75,7 @@ project mature and safe to use even for the most demanding and conservative proj
 
 State all that clearly. And next time you won't waste a week of your time because
 you've made the wrong call on a library that did not provide any maturity information,
-you will realize how much different a few sentences can make to real people.
+you will realize how much difference a few sentences can make to real people.
 
 ### Document Supported Runtime/Language/Tool Versions
 
@@ -223,7 +223,7 @@ That is all. For example, here's an [example from Welle](https://github.com/mich
 
 It's that time again. You've bumped the version and about to publish artifacts. Stop and make
 another thing first: tag the commit that changes the version. Without tags it will be
-a royal pain to find
+a royal pain to come up with a diff betwee nversions.
 
 Some dependency (e.g. Bundler, Rebar) and configuration management tools can use tags
 and developers will expect tags to be available.
