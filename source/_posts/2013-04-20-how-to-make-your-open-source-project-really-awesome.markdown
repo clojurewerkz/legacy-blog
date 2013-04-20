@@ -51,7 +51,7 @@ sure it is awesome and contains useful information.
 
 So you release open source software. This probably means you are kinda smart. Good
 for you. Unfortunately, not everybody is and some people are completely new to the
-Clojure ecosystem. This means that what is obvious to you is not at all obvious
+language/ecosystem your project is in. This means that what is obvious to you is not at all obvious
 to many other people.
 
 One such thing is missing dependency/installation information.
@@ -65,6 +65,8 @@ name, etc.
 
 Relieve your users from having to deal with this crap. Make it dead obvious
 how to add a dependency on your project, ideally by copy-pasting a snippet.
+
+See [Welle](https://github.com/michaelklishin/welle#maven-artifacts) if you need an example.
 
 
 ### State Project Maturity Clearly
@@ -101,9 +103,11 @@ You may not care about licenses much, but people who want to use your library at
 They must know. And it may be a deal breaker for them when they want to adopt Clojure/Node.js/Scala/Go/whatever.
 
 So state your license clearly. And please, use something business-friendly unless you have good reasons.
-Apache Public License 2.0, Eclipse Public License and MIT are three good, friendly choices.
+Apache Public License 2.0, Eclipse Public License are good, friendly choices. Note that some licenses
+(e.g. MIT) are friendly and popular but do not offer any patent protection, which should not be ignored
+in the current legal climate.
 
-Finally, remember that you can double-license, e.g. APL2/MIT/GPLv2 if you really want to be license-neutral.
+Finally, remember that you can double-license, e.g. APL2/GPLv2 if you really want to be license-neutral.
 Then your users will pick what suits them.
 
 
@@ -131,7 +135,7 @@ place. In the words of Rob Pike, it "empowers them". It shows them that you care
 them that you are a real person, not a robot spitting code.
 
 After about 2 years of working on [ClojureWerkz](http://clojurewerkz.org), I can confidently
-say that there is nothing our users love our stuff more than solid documentation:
+say that there is nothing our users are more thankful for than documentation for our projects:
 
  * [Elastisch documentation](http://clojureelasticsearch.info)
  * [Welle documentation](http://clojureriak.info)
@@ -215,7 +219,7 @@ That's it. There is no step 3.
 Change logs typically use reverse chronological order. Changes are grouped by versions. If you have
 multiple branches (e.g. `master` and `1.0.x`), each one has a separate change log.
 
-That is all. For example, here's an [example from Welle](https://github.com/michaelklishin/welle/blob/master/ChangeLog.md).
+That is all. For example, here's [Welle's change log](https://github.com/michaelklishin/welle/blob/master/ChangeLog.md).
 
 
 
@@ -235,11 +239,11 @@ of days.
 
 ### Announce Releases
 
-Next thing to do after you announce a release is to write a blog post or simply a
+Next thing to do after you push a release out is to write a blog post or simply a
 post to the mailing list of your project or a larger relevant mailing list
 (e.g. [Clojure mailing list](https://groups.google.com/group/clojure) or [RabbitMQ Discuss](https://lists.rabbitmq.com/cgi-bin/mailman/listinfo/rabbitmq-discuss)).
 
-Make sure the title starts with `ANN` or `[ANN]` to indicate that it is an announcement,
+Make sure the subject starts with `ANN` or `[ANN]` to indicate that it is an announcement,
 e.g.
 
 > ANN Welle 1.5.0 is released
@@ -264,8 +268,7 @@ Examples of development versions:
  * `1.1.0-alpha1`
  * `1.1.0-SNAPSHOT` (for JVM languages)
 
-
-Any other version naming scheme is confusing and will guarantee your users a bad time.
+Any other development version naming scheme is confusing and will guarantee your users a bad time.
 
 
 ### How To Fuck It Up
@@ -327,6 +330,8 @@ It will help you build a community, learn about how people use your project and 
 be improved. Finally, it will help you find people who will be able to help maintain
 your project. Not only it will save you time, it will encourage those people to spread
 the word about it.
+
+If you need an example, [Welle README has a section about community and support](https://github.com/michaelklishin/welle#community).
 
 ### How To Fuck It Up
 
