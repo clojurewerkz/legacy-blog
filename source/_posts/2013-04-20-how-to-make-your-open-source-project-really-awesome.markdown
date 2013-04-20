@@ -103,12 +103,14 @@ You may not care about licenses much, but people who want to use your library at
 They must know. And it may be a deal breaker for them when they want to adopt Clojure/Node.js/Scala/Go/whatever.
 
 So state your license clearly. And please, use something business-friendly unless you have good reasons.
-Apache Public License 2.0, Eclipse Public License are good, friendly choices. Note that some licenses
-(e.g. MIT) are friendly and popular but do not offer any patent protection, which should not be ignored
+[Apache Public License 2.0](http://www.tldrlegal.com/license/apache-license-2.0-(apache-2.0)) and [Eclipse Public License](http://www.tldrlegal.com/license/eclipse-public-license-1.0-(epl-1.0)) are good, friendly choices. Note that some licenses
+(e.g. [MIT](http://www.tldrlegal.com/license/mit-license)) are friendly and popular but do not offer any patent protection, which should not be ignored
 in the current legal climate.
 
 Finally, remember that you can double-license, e.g. APL2/GPLv2 if you really want to be license-neutral.
 Then your users will pick what suits them.
+
+When in doubt, refer to [TL;DR Legal, open source licenses summarized & explained in plain English](http://www.tldrlegal.com/) (but don't consider it to be legal advice).
 
 
 ### How To Fuck It Up
