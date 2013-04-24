@@ -12,7 +12,7 @@ categories:
 and currencies, built on top of [Joda Money](http://joda-money.sourceforge.net/).
 
 `1.2.0` is a minor release that has no breaking API changes and contains
-additional 
+support for additional currencies.
 
 
 
