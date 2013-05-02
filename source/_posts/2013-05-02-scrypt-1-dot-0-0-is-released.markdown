@@ -10,8 +10,9 @@ categories:
 
 ## TL;DR
 
-[ClojureWerkz Scrypt](https://github.com/clojurewerkz/scrypt) is a tiny Clojure library for working with [scrypt](),
-a key derivation function. Scrypt can be used to hash passwords
+[ClojureWerkz Scrypt](https://github.com/clojurewerkz/scrypt) is a tiny Clojure library for working with [scrypt](http://www.tarsnap.com/scrypt/scrypt.pdf),
+a key derivation function. Scrypt can be used to hash passwords and generate cryptographic
+keys. It is an alternative to Bcrypt and PBKDF2.
 
 
 ## Why Use Scrypt
