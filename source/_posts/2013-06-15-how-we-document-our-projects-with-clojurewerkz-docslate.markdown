@@ -55,7 +55,7 @@ Once you have it going, with just a few edits you are ready for the work that
 really matters: writing helpful documentation guides.
 
 
-## Why You Should Adopt For Your Project
+## Why You Should Adopt Docslate For Your Project
 
 Docslate lets you get to writing quickly without spending too much time on issues such as
 
