@@ -62,7 +62,7 @@ Docslate lets you get to writing quickly without spending too much time on issue
  * Should I use Jekyll, Awestruct, hack my own thing with Pandoc or use a wiki?
  * What library should I use for code highlighting?
  * How do I make the docs look decent?
- * What should I license the site and content?
+ * What licenses should I use for the site and content?
 
 and so on.
 
