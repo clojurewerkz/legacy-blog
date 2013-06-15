@@ -14,7 +14,7 @@ a toolchain that other projects can use.
 
 ## A Bit of History
 
-Before there was ClojureWerkz, myself and Alex were fairly active in the
+Before there was ClojureWerkz, [myself](http://twitter.com/michaelklishin) and [Alex](http://twitter.com/ifesdjeen) were fairly active in the
 open source community. I maintain several RabbitMQ clients and
 needed a new documentation site for [one of them](http://rubyamqp.info).
 
