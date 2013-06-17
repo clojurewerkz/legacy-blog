@@ -66,7 +66,7 @@ Hayt makes working with CQL as nice as the new `clojure.java.jdbc` DSL:
 
 (cql/select "users"
             (where :name [:in ["Alex" "Robert"]]))
-;; => [{:name "Alex", :age 19, :city "Munich"}
+;; => [{:name "Alex", :city "Munich"}
        {:name "Robert", :city "Berlin"}]
 ```
 
