@@ -106,7 +106,7 @@ and Max for making querying Cassandra from Clojure such a good experience.
 Cassaforte is young but already offers all the key features you'd expect from
 such a client:
 
- * Schema (keyspaces, tables/column families, indices manipulation)
+ * Schema (keyspaces, tables/column families, indices) manipulation
  * _All_ CQL operations
  * Inserts that work with Clojure data structures
  * CQL 3.0 queries, including queries with placeholders (?, a la JDBC)
