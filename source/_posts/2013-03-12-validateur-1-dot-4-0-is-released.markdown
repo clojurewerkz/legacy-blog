@@ -5,7 +5,7 @@ date: 2013-03-12 23:50
 comments: false
 categories:
   - releases
-  - pantomime
+  - validateur
 ---
 
 ## TL;DR
