@@ -53,6 +53,11 @@ We recommend all users to upgrade to [1.5.0](https://clojars.org/com.novemberain
 [Validateur change log](https://github.com/michaelklishin/validateur/blob/master/ChangeLog.md) is available on GitHub.
 
 
+## Thank You, Contributors
+
+Javier Neira contributed key features in this release.
+
+
 
 ## Validateur is a ClojureWerkz Project
 
