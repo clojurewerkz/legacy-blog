@@ -69,6 +69,12 @@ Ragtime dependency has been updated to 0.3.3.
 
 
 
+## Thank You, Contributors
+
+Erik Bakstad contributed key features in this release.
+
+
+
 ## Monger is a ClojureWerkz Project
 
 [Monger](http://clojuremongodb.info) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
