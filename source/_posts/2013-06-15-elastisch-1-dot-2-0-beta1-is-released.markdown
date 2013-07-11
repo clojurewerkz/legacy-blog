@@ -13,7 +13,7 @@ categories:
 Elastisch is a battle tested, small but feature rich and well documented [Clojure client for ElasticSearch](http://clojureelasticsearch.info).
 It supports virtually every Elastic Search feature and has [solid documentation](http://clojureelasticsearch.info).
 
-[1.2.0-beta1](https://clojars.org/clojurewerkz/elastisch/versions/1.2.0-beta1) is a development release that has improvement sorting support in the native client.
+[1.2.0-beta1](https://clojars.org/clojurewerkz/elastisch/versions/1.2.0-beta1) is a development release that has improved sorting support in the native client.
 
 
 
