@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "clojurewerkz.org"
+ssh_user       = "sites@ocean.clojurewerkz.org"
 ssh_port       = "22"
 document_root  = "~/clojurewerkz/blog.clojurewerkz.org"
 rsync_delete   = false
