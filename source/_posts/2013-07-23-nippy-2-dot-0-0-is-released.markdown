@@ -29,6 +29,7 @@ Nippy 2.0 is a *backwards-compatible* release that introduces several new featur
     See the new fn docstrings for updated opts, etc.
 
   * Added pluggable compression support:
+
     ```clojure
     (freeze "Hello") ; defaults to:
     (freeze "Hello" {:compressor taoensso.nippy.compression/snappy-compressor})
@@ -38,6 +39,7 @@ Nippy 2.0 is a *backwards-compatible* release that introduces several new featur
     ```
 
   * Added pluggable crypto support:
+
     ```clojure
     (freeze "Hello") ; defaults to:
     (freeze "Hello" {:encryptor taoensso.nippy.encryption/aes128-encryptor}
