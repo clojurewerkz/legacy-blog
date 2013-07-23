@@ -20,36 +20,12 @@ new features.
 
 Nippy 2.0 is a *backwards-compatible* release that introduces several new features:
 
-  * **MIGRATION NOTE**: Please be sure to use `lein clean` to clear old (v1) build artifacts!
-  * Refactored for huge performance improvements (~40% roundtrip time).
-  * New header format for better error messages.
-  * New `taoensso.nippy.tools` ns for easier integration with 3rd-party tools.
+ * Pluggable compression
+ * Pluggable data encryption support
+ * Much improved error messages
+ * Easier integration with other libraries
 
-  * **DEPRECATED**: `freeze-to-bytes` -> `freeze`, `thaw-from-bytes` -> `thaw`.
-    See the new fn docstrings for updated opts, etc.
-
-  * Added pluggable compression support:
-
-    ```clojure
-    (freeze "Hello") ; defaults to:
-    (freeze "Hello" {:compressor taoensso.nippy.compression/snappy-compressor})
-
-    ;; The :compressor value above can be replaced with nil (no compressor) or
-    ;; an alternative Compressor implementing the appropriate protocol
-    ```
-
-  * Added pluggable crypto support:
-
-    ```clojure
-    (freeze "Hello") ; defaults to:
-    (freeze "Hello" {:encryptor taoensso.nippy.encryption/aes128-encryptor}
-
-    ;; The :encryptor value above can be replaced with nil (no encryptor) or
-    ;; an alternative Encryptor implementing the appropriate protocol
-    ```
-
-    See the [README](https://github.com/ptaoussanis/nippy#encryption-currently-in-alpha) for an example using encryption.
-
+See [full change log](https://github.com/ptaoussanis/nippy/blob/master/CHANGELOG.md) for more info.
 
 
 ## Nippy Has Sister Projects
