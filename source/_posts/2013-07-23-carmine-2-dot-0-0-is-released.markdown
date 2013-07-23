@@ -23,7 +23,7 @@ and another 20% performance improvement (now within less than 5% of the Java cli
  * Improvements to [message queueing](https://github.com/ptaoussanis/carmine#message-queue) and distributed locking features
  * [Tundra](https://github.com/ptaoussanis/carmine#tundra), a way to plug a durable data store into Carmine for long-term data persistence
 
-(sorry that the change log is so concise. We've asked Peter to keep a slightly more detailed one!)
+See [full change log](https://github.com/ptaoussanis/carmine/blob/master/CHANGELOG.md) for more details.
 
 
 ## Carmine 2.0 Migration Guide
