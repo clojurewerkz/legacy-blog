@@ -37,10 +37,10 @@ before upgrading.
 [Carmine](https://github.com/ptaoussanis/carmine) is part of the [group of libraries by Peter Taoussanis](https://www.taoensso.com/clojure-libraries), together with
 
  * [Timbre](https://github.com/ptaoussanis/timbre), a pure Clojure logging and profiling library
- * [Tower](https://github.com/ptaoussanis/touchstone), a Clojure library for split testing
+ * [Tower](https://github.com/ptaoussanis/tower), a pure Clojure library for i18n and l10n
  * [Nippy](https://github.com/ptaoussanis/nippy), a fast drop-in replacement for the Clojure reader
  * [Faraday](https://github.com/ptaoussanis/faraday), a Clojure DynamoDB client
- * [Touchstone](https://github.com/ptaoussanis/tower), a pure Clojure library for i18n and l10n
+ * [Touchstone](https://github.com/ptaoussanis/touchstone), a Clojure library for split testing
 
 If you like these projects, you should [follow Peter on Twitter](http://twitter.com/ptaoussanis).
 
