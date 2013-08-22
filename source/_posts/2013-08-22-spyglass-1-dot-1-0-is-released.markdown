@@ -165,7 +165,7 @@ use.
 
 ## Change Log
 
-We recommend all users to give [1.1.0-beta3](https://clojars.org/clojurewerkz/spyglass/versions/1.1.0-beta3) a try.
+We recommend all users to give [1.1.0](https://clojars.org/clojurewerkz/spyglass/versions/1.1.0) a try.
 
 [Spyglass change log](https://github.com/clojurewerkz/spyglass/blob/master/ChangeLog.md) is available on GitHub.
 
