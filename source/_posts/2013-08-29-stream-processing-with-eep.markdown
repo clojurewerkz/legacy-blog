@@ -313,3 +313,10 @@ functions to be available at your fingertips right in EEP, watch project progres
 and stay tuned for all the updates on [@clojurewerkz](http://twitter.com/clojurewerkz)
 
 If you like it, you can start using EEP already! Go grab it [on GitHub](http://github.com/clojurewerkz/eep)
+
+Recently [Alex](http://twitter.com/ifesdjeen) has joined [codecentric AG](http://codecentric.de),
+where he works as a "Clojure guy", improving lives of Clojure developers on a daily basis, working
+on data processing, analysis and monitoring tools and improving Clojure web stack. We'd like to
+take this opportunity to thank codecentric for helping ClojureWerkz out and allowing him to work
+on open source projects during office hours. In upcoming weeks, we're planning to release way more
+our works, so stay tuned!
