@@ -45,7 +45,7 @@ though implementation details will have pretty much nothing in common.
 When we've first started investigating __state of art__ of event processing,
 intuitive choices for inspiration were Erlang (gen_event) and
 Node.js. Don't try to judge strictly here.  Of course, they certainly
-take absolutely different approach to concurrency, but even emission
+take absolutely different approach to concurrency, but emission
 part looks quite similar.
 
 In [gen_event](http://www.erlang.org/doc/man/gen_event.html) two
@@ -62,7 +62,9 @@ look if we can use `RingBuffer` from
 [Disruptor](https://github.com/LMAX-Exchange/disruptor), and after
 several interactions we ended up using
 [Reactor](https://github.com/reactor/reactor), written by SpringSource/
-Pivotal engineers.
+Pivotal engineers, and it became a game-changer. It got way faster, routing
+got so much easier (and much faster, too, since internal Reactor routing is using
+caching registry, that works with L1 Cache and read/write reentrant locks).
 
 Reactor turned out to use same exact approach, and migration (after
 spelling out everything reactor-related in Clojure) didn't take long.
@@ -82,10 +84,10 @@ Core concepts of EEP are:
     be number, symbol, keyword, string or anything else. All the events
     coming into `Emitter` have type associated with them.
 
-   * `Handler` is a function and optional state attached to it. Function is a
-     callback, executed whenever `Event Type` is matched for the
-     event. Single handler can be used for multiple `Event Types`, but
-     `Event Type` can only have one `Handler` at a time.
+  * `Handler` is a function and optional state attached to it. Function is a
+    callback, executed whenever `Event Type` is matched for the
+    event. Single handler can be used for multiple `Event Types`, but
+    `Event Type` can only have one `Handler` at a time.
 
 ## Handler types
 
