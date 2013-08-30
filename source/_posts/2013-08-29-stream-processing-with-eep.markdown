@@ -1,77 +1,75 @@
 ---
 layout: post
-title: "Stream Processing with EEP"
+title: "Introducing  EEP, a Stream Processing Library"
 date: 2013-08-29 09:23
-comments: true
+comments: false
 categories:
+  - eep
+  - releases
 ---
 
-If you're working with data a lot, quite soon it becomes close to
-impossible to process an entire corpus in one run, or you simply can't
-do that, since data is coming in form of events / tuples and you perform
-analysis based on the calculations. Moreover, with growth of processing
-codebase you're creating some kind of framework that allows you get most
-of routing out of the way, so that you could pay more attention to
-details rather than to grasp an entire flow at a time.
+## Drinking From The Data Firehose
 
-There's a lot of progress on this subject lately. Prismatic guys
-released their processing library,
-[Graph](https://github.com/Prismatic/plumbing), Zach Tellman, creator of
-Aleph, made [Lamina](https://github.com/ztellman/lamina) that helps you
-to work with streams and gives you some abstractions, Kyle Kingsbury
-created [Riemann](https://github.com/aphyr/riemann), that implements
-similar approach internally,
-[Eventsourced](https://github.com/eligosource/eventsourced) is another
-example, [Pipes](pipes.tinkerpop.com) from Tinkerpop,
-[Storm](github.com/nathanmarz/storm) by Nathan Marz and many more
-examples.
+If you work with data a lot, and you have a lot of it, it becomes
+nearly impossible to process the entire corpus in one run. Sometimes
+you simply can't do that at all, since the data is coming in form of
+events.  Moreover, as your codebase grows, you'll be forced to create
+a library that allows you get most of routing out of the way, so that
+you could pay more attention to details rather than to grasp the entire
+flow.
 
-Basic idea remains the same. You have a stream of data coming in in form
-of events. You build a topology of functions that broadcast, transform,
-filter, aggregate or save state of tuples that are going through. This
-way at any given point in time you can know the intermediate result of
+There's been lot of progress on this subject lately in the Clojure
+community.  Prismatic folks released their processing library,
+[Graph](https://github.com/Prismatic/plumbing). Kyle Kingsbury created
+[Riemann](https://github.com/aphyr/riemann) that uses a similar
+approach internally. Zach Tellman, creator of Aleph, released
+[Lamina](https://github.com/ztellman/lamina) for working with streams,
+a couple of years ago.
+[Eventsourced](https://github.com/eligosource/eventsourced),
+[Pipes](http://pipes.tinkerpop.com) from Tinkerpop, and
+[Storm](http://github.com/nathanmarz/storm) by Nathan Marz can also
+be counted as good example.
+
+The basic idea remains the same. You have a stream of data coming in
+in form of events. You build a topology of functions that broadcast,
+transform, filter, aggregate or save state of said events. At any
+given point in time you can know the intermediate result of
 calculation, in case when stream of events is being fetched from some
-data source, or can get results interactively (some may say real-time
+data source, or can get results interactively (real-time, 
 yo), and react to the system behavior.
 
-After trying pretty much same approach out for quite some things, it did
-work quite well.  Of course, depending on the required throughput my
-approach may be not exactly what you want to use in your production
-system, but most likely interface will still remain quite similar, even
-though implementation details will have pretty much nothing in common.
+After trying pretty much same approach out for quite some things, it
+did work quite well. Of course, depending on the required throughput
+my approach may be not exactly what you want to use in your production
+system, but most likely the interface will still be similar to the
+alternatives, even though implementation details will vary.
 
-# Enter EEP
+Today we are release our own library into this melting pot of JVM-based
+stream processing projects.
 
-When we've first started investigating __state of art__ of event processing,
-intuitive choices for inspiration were Erlang (gen_event) and
-Node.js. Don't try to judge strictly here.  Of course, they certainly
-take absolutely different approach to concurrency, but emission
-part looks quite similar.
+## Enter EEP
 
-In [gen_event](http://www.erlang.org/doc/man/gen_event.html) two
+[EEP](https://github.com/clojurewerkz/eep) is our own young entrant to this space.
+
+When we've first started investigating __state of the art__ of event processing,
+intuitive choices for inspiration were Erlang (`gen_event`) and
+Node.js (don't judge!). They certainly
+have very different approaches to concurrency but there are similarities.
+
+In [gen_event](http://www.erlang.org/doc/man/gen_event.html), two
 functions that are used more often than others are
-`gen_event:add_handler` and `gen_event:notify`. Former subscribes you to
-an occuring event, latter sends event to the emitter, which dispatches
-it according to the
-handler. [Node.js](http://nodejs.org/api/events.html) approach is
-extremely similar: multiple handlers per event type, routed on emission.
+`gen_event:add_handler` and `gen_event:notify`. The former subscribes you to
+an occuring event, the latter sends events to the emitter, which dispatches
+them to the handler. [Node.js](http://nodejs.org/api/events.html) approach is
+very similar: multiple handlers per event type, routed on emission.
 
-Initial implementation of EEP was based on `ThreadPoolExecutor`, and was
-functioning quite well, but after some research we decided to take a
-look if we can use `RingBuffer` from
-[Disruptor](https://github.com/LMAX-Exchange/disruptor), and after
-several interactions we ended up using
-[Reactor](https://github.com/reactor/reactor), written by SpringSource/
-Pivotal engineers, and it became a game-changer. It got way faster, routing
-got so much easier (and much faster, too, since internal Reactor routing is using
-caching registry, that works with L1 Cache and read/write reentrant locks).
+Next we will briefly cover EEP concepts and demonstrate what it feels
+like to use it with some code examples.
 
-Reactor turned out to use same exact approach, and migration (after
-spelling out everything reactor-related in Clojure) didn't take long.
 
 ## Core concepts
 
-Core concepts of EEP are:
+Core concepts in EEP are:
 
   * `Emitter` is responsible for handler registration and event
     routing. It holds everything together.
@@ -89,7 +87,8 @@ Core concepts of EEP are:
     event. Single handler can be used for multiple `Event Types`, but
     `Event Type` can only have one `Handler` at a time.
 
-## Handler types
+
+## Building Data Flows
 
 Now, with these building blocks we can go ahead and start building
 processing graphs. For that, we need to define several types of handlers
@@ -289,18 +288,14 @@ And pump data to the emitter:
 (println "Median of fast 20 load times:" (float (median (state (get-handler emitter :load-times-last-20)))))
 ```
 
-There're many advantages of using such an approach for data processing. First of all, you
-whenever you're working with a stream, you can have latest data available at all times.
-There's no need to go through an entire corpus of data, only get the state of the handlers
-of your interest.
 
-This post is not about math and statistics, it's about data processing, and even though there
-were no examples of more complex statistical and analytical functions given, you can use
-same exact approach for anomaly detection, trend analysis, predictions, comparing current
-data with historical data points and much more
+## Why Stream Processing
 
-For interactivity, you can use websockets, create dashboards, push data to the mobile clients,
-generate email alerts and much more.
+There're many advantages of using such an approach for data
+processing. First of all, you whenever you're working with a stream,
+you can have latest data available at all times.  There's no need to
+go through an entire corpus of data, only get the state of the
+handlers of your interest.
 
 Every handler is reusable, and you can generate graphs in such a way, there's not a single
 entrypoint to each handler, but there're several ones. If internal EEP handlers are not
@@ -308,15 +303,61 @@ enough for you, you can always reuse `IHandler` protocol and extend it with any 
 of your preference, that would give you an ability to have sliding, tumbling, monotonic windows,
 different types of buffers, custom aggregators and so on.
 
+
+## What You Can Do With It
+
+Event streams are very common in every system. One application that's been quite popular
+in recent years is "logs as data" processed as a stream. Every production system produces
+a stream of events and it becomes increasingly obvious to both engineers and business
+owners alike that tapping into that data can bring a lot of benefits.
+
+To make this more useful, you can use stream processing libraries such
+as EEP to propagate events to mobile and Web clients, publish them to
+other apps using messaging technologies such as RabbitMQ, generate
+alerts and much more.
+
+EEP is a generic project that can be used in a wide range of cases.
+
+
+## Enter Meltdown
+
+Initial implementation of EEP was based on thread pools, and was
+functioning reasonably well but after some research we decided to take
+a look if we can use ring buffer abstraction from
+[Disruptor](https://github.com/LMAX-Exchange/disruptor). After several
+interactions we ended up using
+[Reactor](https://github.com/reactor/reactor), a new event-driven
+programming framework from [Pivotal](http://gopivotal.com). It was a
+game-changer. EEP got way faster, routing got so much easier (and much
+faster, too).
+
+Our Clojure interface to Reactor is a separate library, creatively
+named [Meltdown](https://github.com/clojurewerkz/meltdown). Now you can deploy a meltdown into production!
+
+We will cover Meltdown in more details in a separate blog post.
+
+
+## (Some) Future Plans
+
 We're working hard to bring a good support for numerical analysis and good set of statistical
-functions to be available at your fingertips right in EEP, watch project progress for more information
-and stay tuned for all the updates on [@clojurewerkz](http://twitter.com/clojurewerkz)
+functions to be available at your fingertips right in EEP. You can watch our progress [on GitHub](http://github.com/clojurewerkz) and follow the news [on Twitter @clojurewerkz](http://twitter.com/clojurewerkz).
 
-If you like it, you can start using EEP already! Go grab it [on GitHub](http://github.com/clojurewerkz/eep)
 
-Recently [Alex](http://twitter.com/ifesdjeen) has joined [codecentric AG](http://codecentric.de),
-where he works as a "Clojure guy", improving lives of Clojure developers on a daily basis, working
-on data processing, analysis and monitoring tools and improving Clojure web stack. We'd like to
-take this opportunity to thank codecentric for helping ClojureWerkz out and allowing him to work
-on open source projects during office hours. In upcoming weeks, we're planning to release way more
-our works, so stay tuned!
+## Monger is a ClojureWerkz Project
+
+[EEP](http://github.com/clojurewerkz/eep) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
+
+ * [Monger](http://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
+ * [Langohr](http://clojurerabbitmq.info), a Clojure client for RabbitMQ that embraces the AMQP 0.9.1 model
+ * [Cassaforte](http://clojurecassandra.info), a Clojure Cassandra client built around CQL
+ * [Elastisch](http://clojureelasticsearch.info), a minimalistic Clojure client for ElasticSearch
+ * [Welle](http://clojureriak.info), a Riak client with batteries included
+ * [Neocons](http://clojureneo4j.info), a client for the Neo4J REST API
+ * [Quartzite](http://clojurequartz.info), a powerful scheduling library
+
+and several others. If you like EEP, you may also like [our other projects](http://clojurewerkz.org).
+
+Let us know what you think [on Twitter](http://twitter.com/clojurewerkz) or on the [Clojure mailing list](https://groups.google.com/group/clojure).
+
+
+[@ifesdjeen](http://twitter.com/ifesdjeen) on behalf of the [ClojureWerkz](http://clojurewerkz.org) Team
