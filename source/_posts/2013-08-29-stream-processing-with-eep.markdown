@@ -343,7 +343,7 @@ We're working hard to bring a good support for numerical analysis and good set o
 functions to be available at your fingertips right in EEP. You can watch our progress [on GitHub](http://github.com/clojurewerkz) and follow the news [on Twitter @clojurewerkz](http://twitter.com/clojurewerkz).
 
 
-## Monger is a ClojureWerkz Project
+## EEP is a ClojureWerkz Project
 
 [EEP](http://github.com/clojurewerkz/eep) is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
 
