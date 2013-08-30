@@ -326,7 +326,7 @@ functioning reasonably well but after some research we decided to take
 a look if we can use ring buffer abstraction from
 [Disruptor](https://github.com/LMAX-Exchange/disruptor). After several
 interactions we ended up using
-[Reactor](https://github.com/reactor/reactor), a new event-driven
+[Reactor](http://blog.springsource.org/2013/05/13/reactor-a-foundation-for-asynchronous-applications-on-the-jvm/), a new event-driven
 programming framework from [Pivotal](http://gopivotal.com). It was a
 game-changer. EEP got way faster, routing got so much easier (and much
 faster, too).
