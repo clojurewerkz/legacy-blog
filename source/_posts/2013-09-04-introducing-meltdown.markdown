@@ -13,7 +13,7 @@ categories:
 Last week we introduced a new project we've been working on for
 a few months, [EEP](/blog/2013/08/29/stream-processing-with-eep/).
 
-To make event processing concurrent and parallel, there needs
+To make event processing concurrent and parallel in EEP, there needs
 to be a way to transfer events (messages) from threads that
 produce them to threads that consume them. In addition,
 it is desirable to also be able to filter events
@@ -22,9 +22,8 @@ consumers are interested in.
 There are multiple message passing libraries available on the JVM.
 Some of them are stable and very mature but have very small
 contributor base, others are extremely actively used but less
-convenient to consume from Clojure, some do not offer some of
-the features we wanted. So we decided to wait and see, and
-not make the choice yet.
+convenient to consume from Clojure, some do not offer the features we
+wanted. So we decided to wait and see, and not make the choice yet.
 
 ## Enter Reactor
 
