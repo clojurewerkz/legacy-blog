@@ -42,7 +42,7 @@ features that we found very handy for stream processing:
  * It's very easy to run multiple reactors in the same JVM
  * It can be backed by [LMAX Disruptor](http://lmax-exchange.github.io/disruptor/),
    which offers very high throughput *and* really low stable latency
-   thanks to smart false sharing elimination techniques
+   thanks to [smart false sharing elimination techniques](http://www.infoq.com/presentations/LMAX)
 
 After seeing that it only took 2 hours to write a first Meltdown version
 with some tests, we were convinced Reactor is a great choice for our
