@@ -387,7 +387,7 @@ Maintaining open source projects takes time and effort. But it pays off. I've be
 opportunities I'm blessed to have today than being active in the open source
 community.
 
-And if you are not going to make something awesome, maybe better don't release it
+And if you are not going to make something awesome, maybe it would be better to not release it
 in the first place.
 
 [Michael](http://twitter.com/michaelklishin).
