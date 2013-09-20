@@ -16,7 +16,7 @@ integration.
 
 
 
-## Changes between Elastisch 1.0.0-rc1 and 1.0.0-rc2
+## Changes between Route One 1.0.0-rc1 and 1.0.0-rc2
 
 ### Tight Compojure integration
 
