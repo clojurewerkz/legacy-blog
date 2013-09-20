@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "EEP 1.1.0-alpha5 is released"
+title: "EEP 1.0.0-alpha5 is released"
 date: 2013-09-20 21:54
 comments: false
 categories:
