@@ -6,7 +6,7 @@ group :development do
   #
   # gem install iconv -- --with-iconv-dir=~/.rvm/usr
   gem "iconv"
-  gem 'rake', '~> 0.9'
+  gem 'rake', '~> 10.0.0'
   gem 'jekyll', '~> 0.12'
   gem 'rdiscount', '~> 1.6.8'
   gem 'pygments.rb', '~> 0.3.4'
