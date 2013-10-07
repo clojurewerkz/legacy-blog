@@ -67,7 +67,7 @@ Learn more in the [documentation](https://github.com/clojurewerkz/route-one#docu
 
 ## License
 
-The source is available [on GitHub](http://github.com/michaelklishin/quartzite). We also use GitHub to track issues.
+The source is available [on GitHub](http://github.com/clojurewerkz/route-one). We also use GitHub to track issues.
 
 
 The [ClojureWerkz](http://clojurewerkz.org) Team
