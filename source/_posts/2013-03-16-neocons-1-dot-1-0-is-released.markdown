@@ -93,7 +93,7 @@ to Neo4J Server. Reported in #6.
 
 ## Change Log
 
-We recommend all users to upgrade to [1.1.0](https://clojars.org/clojurewerkz/neocons/versions/1.1.0) a try.
+We recommend all users to upgrade to [1.1.0](https://clojars.org/clojurewerkz/neocons/versions/1.1.0).
 
 [Neocons change log](https://github.com/michaelklishin/neocons/blob/master/ChangeLog.md) is available on GitHub.
 
