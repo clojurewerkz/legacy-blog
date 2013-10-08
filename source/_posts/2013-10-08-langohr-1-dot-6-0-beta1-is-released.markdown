@@ -22,7 +22,7 @@ improvements to automatic connection recovery.
 
 Connections will only be recovered if shutdown was not application-initiated.
 
-Contributed by Stephen Dienst.
+Contributed by Steffen Dienst.
 
 
 ### Support Update
