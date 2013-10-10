@@ -38,7 +38,7 @@ Contributed by Jim Dunn.
 
 ## Thank You, Contributors
 
-Kudos to konradkonrad for contributing to this release.
+Kudos to Jim Dunn for contributing to this release.
 
 
 ## Elastisch is a ClojureWerkz Project
