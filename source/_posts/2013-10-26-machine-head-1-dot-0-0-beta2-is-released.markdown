@@ -48,7 +48,7 @@ known as ClojureWerkz](http://clojurewerkz.org), together with
  * [Cassaforte](http://clojurecassandra.info), a Cassandra client built around CQL 3
  * [Neocons](http://clojureneo4j.info), a feature rich Clojure client for Neo4J REST API
 
-and several others. If you like Neocons, you may also like [our other
+and several others. If you like Machine Head, you may also like [our other
 projects](http://clojurewerkz.org).
 
 Let us know what you think [on
