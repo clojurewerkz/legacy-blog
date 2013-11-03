@@ -18,7 +18,7 @@ changes.
 
 
 
-## Changes between Neocons 1.0.0-beta1 and 1.0.0-beta2
+## Changes between Machine Head 1.0.0-beta1 and 1.0.0-beta2
 
 ### `client/subscribe-with-qos` is Removed
 
