@@ -18,7 +18,7 @@ in the Paho Java client.
 
 
 
-## Changes between Neocons 1.0.0-beta2 and 1.0.0-beta3
+## Changes between Machine Head 1.0.0-beta2 and 1.0.0-beta3
 
 ### Clean Session Support
 
