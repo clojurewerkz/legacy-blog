@@ -43,9 +43,11 @@ Data types used in Buffy buffers include:
 
 ## The Future of Buffy
 
-Buffy has been serving us well for recent time, and no major issues were revealed. However, until
-it reaches GA, we can't guarantee 100% backward compatibility, although we're thought it through
-very well and used our best knowledge to make it right.
+Buffy has been serving us well for some time, and no major issues were
+revealed. However, until it reaches GA, we can't rule breaking API changes out.
+
+We are also very much behind on documentation.
+
 
 ## Buffy is a ClojureWerkz Project
 
