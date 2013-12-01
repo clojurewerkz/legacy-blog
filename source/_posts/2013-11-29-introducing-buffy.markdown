@@ -37,7 +37,7 @@ Data types used in Buffy buffers include:
   * primitives, such as `int32`, `boolean`, `byte`, `short`, `medium`, `float`, and `long`
   * arbitrary-length `string`
   * byte arrays
-  * composite types (combine any of primitives together)
+  * composite types (combine multiple primitive fields together)
   * repeated type (repeat any primitive arbitrary amount of times in payload)
   * enum type (for mapping between human-readable and binary representation of constants)
 
