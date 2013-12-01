@@ -34,7 +34,7 @@ another, give names to different parts of binary representation and so on:
 
 Data types used in Buffy buffers include:
 
-  * primitives, such as `int32`, `boolean`, `byte`, `short`, `medium`, `float`, `long`
+  * primitives, such as `int32`, `boolean`, `byte`, `short`, `medium`, `float`, and `long`
   * arbitrary-length `string`
   * byte arrays
   * composite types (combine any of primitives together)
