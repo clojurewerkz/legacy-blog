@@ -8,21 +8,20 @@ categories:
   - releases
 ---
 
-## The Byte Buffer Slayer
+## Buffy The Byte Buffer Slayer
 
-Buffy is a Clojure library to work with Binary Data, write complete
-binary protocol implementations in clojure, store your complex data
-structures in an off-heap chache, read binary files and do everything
-you would usually do `ByteBuffer`.
+[Buffy](https://github.com/clojurewerkz/buffy) is a Clojure library to working with binary data, writing complete
+binary protocol implementations in Clojure, storing complex data
+structures in an off-heap cache, reading binary files and doing everything
+you would usually do with byte buffers.
 
-Buffy is built on top of `netty-buffer`, which gives endless opportunities
-for working with `ByteBuffers`, that addressed all the issues Java
-community had with `java.util.ByteBuffer`.
+Buffy is built on top of Netty byte buffers, which addresses many of the issues
+with `java.util.ByteBuffer`.
 
 ## Main features
 
 Buffy enables you to access buffers in the similar way you work with
-the normal data structures. You can get and set fields separately from one
+the regular Clojure data structures. You can get and set fields separately from one
 another, give names to different parts of binary representation and so on:
 
   * partial deserialization (read and deserialise parts of a byte buffer)
