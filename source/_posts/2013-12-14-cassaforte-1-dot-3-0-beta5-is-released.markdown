@@ -15,8 +15,8 @@ Apache Cassandra 1.2+. It is built around CQL 3 and focuses on ease
 of use. You will likely find that using Cassandra from Clojure has
 never been so easy.
 
-`1.3.0-beta2` is a milestone release that upgrades Hayt which
-contains a slew of bug fixes.
+`1.3.0-beta5` is a milestone release that upgrades Cassandra Java driver
+and introduces a minor feature.
 
 
 
