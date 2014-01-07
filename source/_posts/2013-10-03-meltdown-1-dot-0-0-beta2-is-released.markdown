@@ -42,7 +42,7 @@ Reactor is updated to `1.0.0.RC1`.
  * [Neocons](http://clojureneo4j.info), a client for the Neo4J REST API
  * [Quartzite](http://clojurequartz.info), a powerful scheduling library
 
-and several others. If you like Elastisch, you may also like [our other projects](http://clojurewerkz.org).
+and several others. If you like Meltdown, you may also like [our other projects](http://clojurewerkz.org).
 
 Let us know what you think [on Twitter](http://twitter.com/clojurewerkz) or on the [Clojure mailing list](https://groups.google.com/group/clojure).
 
