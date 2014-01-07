@@ -13,7 +13,7 @@ categories:
 Meltdown is a Clojure interface to [Reactor](https://github.com/reactor), an asynchronous
 programming, event passing and stream processing toolkit for the JVM.
 
-`1.0.0-beta2` is a development milestone release that updates
+`1.0.0-beta3` is a development milestone release that updates
 [Reactor](https://github.com/reactor/reactor) to `1.0.0.RELEASE`.
 
 
