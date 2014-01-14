@@ -13,7 +13,7 @@ categories:
 
 Langohr is a small [Clojure RabbitMQ client](http://clojurerabbitmq.info).
 
-`2.1.0` is a usability improvement release.
+`2.2.0` is a usability improvement release.
 
 
 ## Changes between Langohr 2.1.x and 2.2.0
