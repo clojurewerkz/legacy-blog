@@ -13,7 +13,8 @@ categories:
 
 Langohr is a small [Clojure RabbitMQ client](http://clojurerabbitmq.info).
 
-`2.3.2` is a bug fix release.
+`2.3.2` is a minor feature and bug fix release based on community feedback on connection
+recovery.
 
 
 ## Changes between Langohr 2.2.1 and 2.3.2
