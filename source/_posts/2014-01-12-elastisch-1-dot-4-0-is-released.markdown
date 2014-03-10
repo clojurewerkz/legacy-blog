@@ -14,7 +14,7 @@ categories:
 Elastisch is a battle tested, small but feature rich and well documented [Clojure client for ElasticSearch](http://clojureelasticsearch.info).
 It supports virtually every Elastic Search feature and has [solid documentation](http://clojureelasticsearch.info).
 
-[1.4.0](https://clojars.org/clojurewerkz/elastisch/versions/1.3.0) is a minor feature and usability release. We recommend all users to upgrade to it.
+[1.4.0](https://clojars.org/clojurewerkz/elastisch/versions/1.4.0) is a minor feature and usability release. We recommend all users to upgrade to it.
 
 
 ## Changes between Elastisch 1.3.0 and 1.4.0
