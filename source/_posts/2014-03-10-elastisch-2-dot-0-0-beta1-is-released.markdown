@@ -143,7 +143,7 @@ Elastisch now depends on ElasticSearch native client version `1.0.1`.
 
 ## Full Change Log
 
-[Elastisch change log](https://github.com/clojurewerkz/elastisch/blob/1.4.x-stable/ChangeLog.md) is available on GitHub.
+[Elastisch change log](https://github.com/clojurewerkz/elastisch/blob/master/ChangeLog.md) is available on GitHub.
 
 
 ## Thank You, Contributors
