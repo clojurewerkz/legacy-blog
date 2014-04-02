@@ -53,7 +53,7 @@ clj-http dependency has been updated to `0.9.0`.
 ## Change Log
 
 [Langohr change
-log](https://github.com/michaelklishin/langohr/blob/2.3.x-stable/ChangeLog.md)
+log](https://github.com/michaelklishin/langohr/blob/master/ChangeLog.md)
 is available on GitHub.
 
 
