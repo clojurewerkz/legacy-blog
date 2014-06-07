@@ -15,7 +15,7 @@ Apache Cassandra. It is built around CQL 3 and focuses on ease
 of use. You will likely find that using Cassandra from Clojure has
 never been so easy.
 
-`2.0.0` is a minor release that introduces [breaking API changes](http://blog.clojurewerkz.org/blog/2014/04/26/major-breaking-public-api-changes-coming-in-our-projects/).
+`2.0.0` is a major API revision release that introduces [breaking public API changes](http://blog.clojurewerkz.org/blog/2014/04/26/major-breaking-public-api-changes-coming-in-our-projects/).
 
 
 ## Changes between 1.3.0 and 2.0.0
