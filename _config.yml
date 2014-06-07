@@ -1,3 +1,6 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 url: "http://blog.clojurewerkz.org"
 title: "The ClojureWerkz Blog"
 subtitle: "News and updates about ClojureWerkz projects"
