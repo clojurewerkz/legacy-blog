@@ -16,7 +16,7 @@ ElasticSearch](http://clojureelasticsearch.info). It supports
 virtually every Elastic Search feature and has [solid
 documentation](http://clojureelasticsearch.info).
 
-[2.0.0-rc1](https://clojars.org/clojurewerkz/elastisch/versions/2.0.0-rc)
+[2.0.0-rc1](https://clojars.org/clojurewerkz/elastisch/versions/2.0.0-rc1)
 is a release candidate of Elastisch 2.0, which focuses on the new
 features in ElasticSearch 1.1 and introduces major API improvements,
 including a **breaking change**.
