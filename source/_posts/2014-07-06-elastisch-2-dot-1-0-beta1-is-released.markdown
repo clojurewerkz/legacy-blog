@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Elastisch 2.1.0-beta1 is released"
-date: 2014-07-06 00:30:00 +0400
+date: 2014-07-05 15:30:00 +0400
 comments: false
 categories:
   - elastisch
