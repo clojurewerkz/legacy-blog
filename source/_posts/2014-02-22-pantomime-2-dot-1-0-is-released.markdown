@@ -14,7 +14,7 @@ categories:
 MIME types and file metadata.
 
 
-## Changes between Pantomime 2.1.0 and 2.1.0
+## Changes between Pantomime 2.0.0 and 2.1.0
 
 ### Apache Tika 1.5
 
