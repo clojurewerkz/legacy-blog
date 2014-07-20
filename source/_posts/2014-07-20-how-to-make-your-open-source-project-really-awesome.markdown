@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'How to Make Your Open Source Project Really Awesome"
+title: "How to Make Your Open Source Project Really Awesome, Part 2"
 date: 2014-07-20 17:01:20 +0400
 comments: false
 categories:
