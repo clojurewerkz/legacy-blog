@@ -14,7 +14,7 @@ categories:
 originally developed by [Steve Losh](http://stevelosh.com/).
 
 `metrics-clojure` is not a ClojureWerkz project but we help maintain it
-and consider it to be a very valuable project.
+and consider it to be a very valuable library.
 
 
 ## Changes Between 2.1.0 and 2.1.1
