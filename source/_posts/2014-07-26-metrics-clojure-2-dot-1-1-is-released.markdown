@@ -10,7 +10,7 @@ categories:
 
 ## TL;DR
 
-`metrics-clojure` is a Clojure façade around Coda Hale's [Metrics](http://metrics.codahale.com) library,
+[metrics-clojure](https://github.com/sjl/metrics-clojure/) is a Clojure façade around Coda Hale's [Metrics](http://metrics.codahale.com) library,
 originally developed by [Steve Losh](http://stevelosh.com/).
 
 `metrics-clojure` is not a ClojureWerkz project but we help maintain it
