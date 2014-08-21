@@ -23,7 +23,7 @@ the fly. Here's a basic example. Let's write some code to render a UI
 off of a nested map and build up live validation for that map off of
 component validators. Here are the components:
 
-```clojure
+``` clojure
 (def profile-validator
   (vr/validation-set
    (vr/presence-of #{:first-name :last-name})))
@@ -36,7 +36,7 @@ component validators. Here are the components:
 
 And then the composed, user account validator:
 
-```clojure
+``` clojure
 (def account-validator
   (vr/compose-sets
    (vr/nested :secrets secret-validator)
@@ -47,7 +47,7 @@ Next are the "rendering" functions. Imagine that these are input
 components responsible for validating their input and displaying
 errors when present. Our "render" phase will just print.
 
-```clojure
+``` clojure
 (defn render-profile [profile errors]
   (prn "Profile: " profile)
   (prn "Profile Errors: " errors))
@@ -70,10 +70,10 @@ go:
 ```clojure
 (defn render-account
   "This function accepts an account object, validates the entire thing
-  using the subvalidators defined above, then uses `unnested` to pull
+  using the subvalidators defined above, then uses unnested to pull
   out specific errors for each component.
 
-  The entire validation error map is passed into `submit-button`,
+  The entire validation error map is passed into submit-button,
   which might only allow a server POST on click of the full error map
   is empty."
   [{:keys [secrets profile] :as account}]
@@ -81,7 +81,7 @@ go:
     (render-profile profile (vr/unnest :profile errors))
     (render-secrets secrets (vr/unnest :secrets errors))
     (submit-button errors)))
- ```
+```
 
 Let's see this function in action. Calling `render-account` with an
 invalid map triggers a render that shows off a bunch of errors:
@@ -102,7 +102,7 @@ invalid map triggers a render that shows off a bunch of errors:
 
 Calling `render-account` with a valid map prints only the data:
 
-```clojure
+``` clojure
 (render-account
  {:secrets {:password "faceknuckle"
             :phone "7035555555"}
@@ -123,7 +123,7 @@ data that's not part of the actual map you pass into the
 validator. For example, say you wanted to validate all user accounts,
 then build up a map of userid -> validation errors:
 
-```clojure
+``` clojure
 (for [account (get-all-accounts)]
   (vr/nest (:id account)
            (account-validator account)))
