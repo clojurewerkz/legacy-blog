@@ -81,7 +81,7 @@ go:
     (render-profile profile (vr/unnest :profile errors))
     (render-secrets secrets (vr/unnest :secrets errors))
     (submit-button errors)))
-    ```
+ ```
 
 Let's see this function in action. Calling `render-account` with an
 invalid map triggers a render that shows off a bunch of errors:
