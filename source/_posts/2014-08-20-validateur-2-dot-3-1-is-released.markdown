@@ -32,7 +32,7 @@ component validators. Here are the components:
   (vr/validation-set
    (vr/length-of :password :within (range 5 15))
    (vr/length-of :phone :is 10)))
-   ```
+```
 
 And then the composed, user account validator:
 
@@ -61,7 +61,7 @@ errors when present. Our "render" phase will just print.
   present."
   [errors]
   (prn "All Errors: " errors))
-  ```
+```
 
 The `render-account` function renders all subcomponents, performs
 global validation and routes the errors and data where each needs to
