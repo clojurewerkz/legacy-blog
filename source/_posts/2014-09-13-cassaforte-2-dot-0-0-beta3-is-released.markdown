@@ -2,8 +2,10 @@
 layout: post
 title: "Cassaforte 2.0.0-beta3 is released"
 date: 2014-09-13 23:14:37 +0400
-comments: true
-categories: 
+comments: false
+categories:
+  - cassaforte
+  - releases
 ---
 
 ## TL;DR
