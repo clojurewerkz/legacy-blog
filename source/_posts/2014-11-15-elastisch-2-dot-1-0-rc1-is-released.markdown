@@ -14,7 +14,7 @@ Elastisch is a battle tested, small but feature rich and well
 documented [Clojure client for ElasticSearch](http://clojureelasticsearch.info). It supports
 virtually every Elastic Search feature and has [solid documentation](http://clojureelasticsearch.info).
 
-[2.1.0-rc11](https://clojars.org/clojurewerkz/elastisch/versions/2.1.0-rc1) is a release
+[2.1.0-rc1](https://clojars.org/clojurewerkz/elastisch/versions/2.1.0-rc1) is a release
 candidate of Elastisch 2.1, coming to you after 9 beta releases.
 
 ## Changes between Elastisch 2.1.0-beta9 and 2.1.0-rc1
