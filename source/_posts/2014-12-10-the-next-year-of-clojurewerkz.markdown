@@ -9,8 +9,8 @@ categories:
 
 ## 3 Years Old
 
-ClojureWerkz has turned 3 last November. This is a fairly mature age for an open source
-project: the dust from initial development has begun to settle.
+ClojureWerkz has turned 3 last November. This is an age for an open source
+project at which the dust from initial development has begun to settle.
 
 In this post we'd like to briefly outline what our plans are for the next year with ClojureWerkz.
 
@@ -94,12 +94,12 @@ an awesome initiative by Vic Goldfeld.
 We are considering setting up a legal entity to make it easy to donate to ClojureWerkz and take
 us to the next level. Having such entity is going to take a lot of work but also going to
 open a lot of doors for us. If you have experience with setting up foundations in the UK
-or EU, please [contact us](mailto:michael@clojurewerkz.org).
+or EU and would like to help, please [contact us](mailto:michael@clojurewerkz.org).
 
 
 ## Wrapping Up
 
-ClojureWerkz is growing. We're still not interested by esoteric problems, so you can expect more of what we've
+ClojureWerkz is growing. We're still not attracted by esoteric problems, so you can expect more of what we've
 been doing all this time. It will be easier to help us.
 
 [Michael](http://twitter.com/michaelklishin) on behalf of the [ClojureWerkz](http://clojurewerkz.org) Team.
