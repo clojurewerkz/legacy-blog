@@ -1,0 +1,73 @@
+---
+layout: post
+title: "Langohr 3.1.0 is released"
+date: 2015-02-27 23:06:18 +0300
+comments: false
+categories:
+  - langohr
+  - rabbitmq
+  - releases
+---
+
+## TL;DR
+
+Langohr is a small [Clojure RabbitMQ client](http://clojurerabbitmq.info).
+
+`3.1.0` upgrades dependencies and includes one bug fix in Langohr itself.
+
+
+## Changes between Langohr 3.0.x and 3.1.0
+
+### RabbitMQ Java Client Upgrade
+
+RabbitMQ Java client dependency has been updated to `3.4.4`.
+
+It includes an important binding recovery bug fix.
+
+### clj-http Upgrade
+
+clj-http dependency has been updated to `1.0.1`.
+
+### Cheshire Upgrade
+
+Cheshire dependency has been updated to `5.4.0`.
+
+
+### langohr.consumers/blocking-subscribe No Longer Fails
+
+`langohr.consumers/blocking-subscribe` no longer fails with a function arity
+exception.
+
+GH issue: [#65](https://github.com/michaelklishin/langohr/issues/65).
+
+
+
+## Change Log
+
+[Langohr change log](https://github.com/michaelklishin/langohr/blob/master/ChangeLog.md)
+is available on GitHub.
+
+
+## Langohr is a ClojureWerkz Project
+
+[Langohr](http://clojurerabbitmq.info) is part of the [group of
+libraries known as ClojureWerkz](http://clojurewerkz.org), together
+with
+
+ * [Elastisch](http://clojureelasticsearch.info), a minimalistic well documented Clojure client for ElasticSearch
+ * [Cassaforte](http://clojurecassandra.info), a Clojure Cassandra client built around CQL 3.0
+ * [Monger](http://clojuremongodb.info), a Clojure MongoDB client for a more civilized age
+ * [Neocons](http://clojureneo4j.info), a client for the Neo4J REST API
+ * [Quartzite](http://clojurequartz.info), a powerful scheduling library
+
+and several others. If you like Langohr, you may also like [our other
+projects](http://clojurewerkz.org).
+
+Let us know what you think [on
+Twitter](http://twitter.com/clojurewerkz) or on the [Clojure mailing
+list](https://groups.google.com/group/clojure).
+
+## About The Author
+
+[Michael](http://twitter.com/michaelklishin) on behalf of the
+[ClojureWerkz](http://clojurewerkz.org) Team
