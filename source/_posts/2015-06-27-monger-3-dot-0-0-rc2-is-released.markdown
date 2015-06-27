@@ -21,7 +21,7 @@ Compared to [3.0.0-rc1](/blog/2015/06/15/monger-3-dot-0-0-rc1-is-released/), thi
 has a few bug fixes and a breaking API change in `monger.credentials`.
 
 
-## Changes between 2.1.0 and 3.0.0
+## Changes between 3.0.0-rc1 and 3.0.0-rc2
 
 ### Add allow-disk-use and Cursor Options to Aggregates
 
