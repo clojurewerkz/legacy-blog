@@ -213,10 +213,10 @@ All of these can be answered by having a *change log*. It's like Twitter except 
 useful. Here's how it works:
 
  * Every time you fix a bug, you write a brief entry to the change log
- * Every time you add a feature, you briefly mentoin it in the change log with a few code examples
+ * Every time you add a feature, you briefly mention it in the change log with a few code examples
  * Every time you make a breaking API change, you clearly state that **in bold** in the change log
 
-That's it. There is no step 3.
+That's it. There is no step 4.
 
 Change logs typically use reverse chronological order. Changes are grouped by versions. If you have
 multiple branches (e.g. `master` and `1.0.x`), each one has a separate change log.
